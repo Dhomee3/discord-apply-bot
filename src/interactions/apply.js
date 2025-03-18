@@ -36,9 +36,9 @@ module.exports = {
 
         const reasonInput = new TextInputBuilder()
             .setCustomId('reasonInput')
-            .setLabel('سبب التقديم')
+            .setLabel('هل لديك مايك')
             .setStyle(TextInputStyle.Paragraph)
-            .setPlaceholder('ادخل سبب التقديم هنا')
+            .setPlaceholder('ادخل اجابتك هنا')
             .setRequired(true);
 
         // Create action rows for each text input
